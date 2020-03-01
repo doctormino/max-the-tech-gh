@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/seamless-2952534-electronic-bg-640x640-t05-comp9.png)
+}
+
+#home-header {
+    background-color: aqua;
+    background-image: url(../img/chicago-1589647_1920x550-o98.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services-check-list {
+    color: chartreuse;
+    font-size: 2em;
+}
+
+.w3-text-oxanium {
+    font-family: 'Oxanium';
+    opacity: 1.0 !important;
+}
+
+.w3-text-simonetta {
+    font-family: 'Simonetta';
+    opacity: 1.0 !important;
+}
+
+.w3-text-tangerine-cursive {
+    font-family: 'Tangerine', serif;
+    opacity: 1.0 !important;
+}
+
+.w3-text-lobster-cursive {
+    font-family: 'Lobster';
+    opacity: 1.0 !important;
+}

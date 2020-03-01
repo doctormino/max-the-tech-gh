@@ -1,0 +1,65 @@
+                <h2 class="w3-text-oxanium w3-xxlarge">
+                    Diagnose
+                </h2>
+                <br>
+                <h5 class="w3-text-oxanium w3-xlarge">&nbsp;&nbsp;&nbsp;&nbsp;Let's figure this out. </h5>
+
+                <img src="../img/diagnose-300x300-o60.png" class="w3-right w3-image" alt="IT-Crew">
+
+                <div class="w3-card-4 w3-theme-d3 w3-round-large">
+                    <p class="w3-large">&nbsp;&nbsp;&nbsp;&nbsp; Just try to explain as best you can what's wrong with your device. What's not working? Is it running to slow? If you can give me a model number that can be helpful (if not don't wory about it). Is there a program that you suspect is causing the problem. If you don't know, I will still do my best to help you. Even if you end up fixing it with someone else.</p>
+                    <br>
+                </div>
+                <div class="w3-panel w3-theme-l3">
+
+                    <br>
+                    <blockquote>
+                        <p>
+                            <em>A correct diagnosis is three-fourths the remedy.</em>
+                        </p>
+                        <small>
+                            Mahatma Gandhi
+                        </small>
+                    </blockquote>
+                </div>
+
+
+                <br>
+                <h2 class="w3-text-oxanium">How can I help you?</h2>
+                <h5 class="w3-text-oxanium">&nbsp;&nbsp;&nbsp;&nbsp;Start by telling me whats wrong with the device</h5>
+<!-- Form Begin -->
+                <div class="w3-card-4 w3-theme-d3 w3-round-large w3-padding-32">
+                    <form name="diagnose" id="diagnose" data-netlify="true" method="POST" class="w3-container">
+                            <label for="Name:">Name:</label>
+                            <input type="Text" name="Name:" class="w3-input w3-round-large" id="Name:"><br>
+                            <label for="Email:">Email:</label>
+                            <input type="email" name="Email:" class="w3-input w3-round-large" id="Email:"><br>
+                            <label for="What Kind of Device is it?">What Kind of Device is it?</label>
+                            <select class="w3-input w3-select w3-round-large" id="What Kind of Device is it?" name="What Kind of Device is it?">
+                                <option value="" selected>-</option>
+                                <option>PC</option>
+                                <option>Laptop</option>
+                                <option>Phone</option>
+                                <option>tablet</option>
+                                <option>Game console</option>
+                            </select><br>
+                            <label for="What's wrong with it?">What's wrong with it?</label>
+                            <textarea class="w3-input w3-round-large" rows="5" id="What's wrong with it?" name="What's wrong with it?"></textarea><br>
+                            <label for="Phone Number">Phone Number</label>
+                            <input type="Text" class="w3-input w3-round-large" id="Phone Number" name="Phone Number"><br>
+
+                            <label for="What's the best time to reach you?">What's the best time to reach you?</label>
+<div class="w3-container">
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="anytime"> anytime</label><br>
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="7am - 9am"> 7am - 9am</label><br>
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="9am - 12pm"> 9am - 12pm</label><br>
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="12pm - 3pm"> 12pm - 3pm</label><br>
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="3pm - 6pm"> 3pm - 6pm</label><br>
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="6pm - 9pm"> 6pm - 9pm</label><br>
+                                <label><input class="w3-radio" type="radio" name="What's the best time to reach you?" value="9pm - 12pm"> 9pm - 12pm</label><br><br>
+    </div>
+
+                        <button type="submit" name="submit" value="Submit" class="w3-btn w3-blue w3-round-large w3-card-4 w3-hover-light-blue">Submit </button>&nbsp;
+                        <button type="reset" name="reset" value="Reset" class="w3-btn w3-blue w3-round-large w3-card-4 w3-hover-light-blue">Reset</button>
+                    </form>
+                </div>
